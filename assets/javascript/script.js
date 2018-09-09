@@ -2,7 +2,7 @@ $(function () {
 	populateButtons(searchArray, 'searchButton', '#buttonsArea');
 })
 //default array of searches that appear when page loads.
-var searchArray = ['Dog','Cat','Bird'];
+var searchArray = ['Bears','Cats','Parrots','Dogs','Hypno-Toad','Sharks','Thylacine'];
 
 function populateButtons(searchArray, classToAdd, areaToAddTo) {
 	//empties out the buttons area to prevent copies.

@@ -1,11 +1,25 @@
-.jumbotron{
-	background-color: black;
-	color: whitesmoke;
+.jumbotron {
+	background-color: rgba(255, 255, 255, 0.683);
+	color: rgb(40, 113, 40);
 }
 
-.searchButton{
-	color: blue
+body {
+	background: url(../images/walpaper.gif)no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.searchButton {
+	color: black;
 }
 
 .search-item {
@@ -16,15 +30,34 @@
 form {
 	width: 25%;
 	float: right;
-	padding: 20px;
+	padding: 25px;
+	margin-bottom: 5px;
+	background-color:rgba(255,255,255,0.3);
 }
 
-button, input[type="submit"] {
+button,
+input[type="submit"] {
 	background: #659a98;
-	color:white;
+	color: black;
 	border: 0;
 	border-radius: 5px;
 	padding: 5px 20px;
 	font-size: 20px;
 	box-shadow: 2px 2px 3px #bbb'
+
 }
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {}

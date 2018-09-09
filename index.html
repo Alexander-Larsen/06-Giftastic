@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>GifTastic!</title>
+
+	<!--Bootstrap Link-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+	
+	
+	<!--local CSS-->
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+</head>
+
+<body>
+	<div class="jumbotron">
+		<h1 class="display-4 text-center">Your Very Own Giftastic Gif-Hell.</h1>
+		<p class="lead text-center">Type a subject into the search field and hit submit.</p>
+		<hr class="my-4">
+		
+		
+	</div>
+	
+	<div class="container">
+		
+		<div id="buttonsArea"></div>
+		
+		<form id="search-form">
+			<label for="search-input">Add your search.</label>
+			<input type="text" id="search-input"><br>
+			<input type="submit" value="Submit">
+			
+		</form>
+		
+		<div id="searches"></div>
+		
+	</div>
+	<!--jquery link-->
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous"></script>
+	<!--Javascript link-->
+	<script type="text/javascript" src="assets/javascript/script.js"></script>
+	
+</body>
+
+</html>

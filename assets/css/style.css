@@ -1,0 +1,30 @@
+.jumbotron{
+	background-color: black;
+	color: whitesmoke;
+}
+
+.searchButton{
+	color: blue
+
+}
+
+.search-item {
+	float: left;
+	padding: 10px;
+}
+
+form {
+	width: 25%;
+	float: right;
+	padding: 20px;
+}
+
+button, input[type="submit"] {
+	background: #659a98;
+	color:white;
+	border: 0;
+	border-radius: 5px;
+	padding: 5px 20px;
+	font-size: 20px;
+	box-shadow: 2px 2px 3px #bbb'
+}
